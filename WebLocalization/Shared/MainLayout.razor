@@ -1,0 +1,17 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <div class="main">
+        <div class="top-row px-4">
+            <a style="padding-right:10px;" href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <CultureSelector />
+        </div>
+        <div class="content px-4">
+            @Body
+        </div>
+    </div>
+</div>
